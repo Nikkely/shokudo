@@ -1,5 +1,4 @@
 import { getDetail,getRecipes } from "@/../../libs/client";
-import Link from "next/link"
 
 export async function generateStaticParams(){
   const { contents } = await getRecipes();
